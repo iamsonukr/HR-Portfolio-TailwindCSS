@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Download, Mail, Phone, MapPin, Linkedin, Github, ChevronDown } from 'lucide-react';
+import {images} from '../assets/images/index.js'
 
 const Hero = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -145,11 +146,15 @@ const Hero = () => {
             <div className="flex flex-col items-center lg:items-end">
               <div className="relative mb-8">
                 {/* Profile Image Container */}
-                <div className="w-80 h-80 rounded-full bg-gradient-to-br from-pink-400 via-purple-500 to-indigo-600 p-1 shadow-2xl">
-                  <div className="w-full h-full rounded-full bg-gray-300 flex items-center justify-center text-gray-600 text-6xl font-bold">
-                    SW
-                  </div>
-                </div>
+             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-pink-400 via-purple-500 to-indigo-600 p-1 shadow-2xl">
+  <div className="w-full h-full rounded-full bg-gray-300 flex items-center justify-center overflow-hidden">
+    <img 
+      src={images.hello} 
+      alt="" 
+      className="w-full h-full object-cover rounded-full"
+    />
+  </div>
+</div>
                 
                 {/* Floating Elements */}
                 <div className="absolute -top-4 -right-4 bg-white/20 backdrop-blur-lg rounded-2xl p-4 animate-bounce">

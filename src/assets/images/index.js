@@ -20,11 +20,13 @@ import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
+import hello from './hello.avif'
 
 export const images= {
     bigShoe1,
     bigShoe2,
     bigShoe3,
+    hello,
 
     customer1,
     customer2,
