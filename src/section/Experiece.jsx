@@ -27,18 +27,21 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: "Senior Director of People Operations",
-      company: "TechForward Solutions",
-      location: "San Francisco, CA",
+      title: "Manager - Talent Acquisition & HR",
+      company: "Western Overseas Study Abroad Pvt. Ltd, Ambala",
+      location: "Ambala",
       duration: "2022 - Present",
       type: "leadership",
       logo: "TF",
       description: "Leading comprehensive people strategy for a fast-growing SaaS company with 800+ employees across 15 countries.",
       achievements: [
-        "Reduced employee turnover by 40% through strategic retention programs",
-        "Implemented global diversity initiative increasing representation by 65%",
-        "Led digital transformation of HR processes, improving efficiency by 50%",
-        "Established remote work policies supporting 70% distributed workforce"
+        "Directed HR functions for Western Overseas and its sister concern, ABOX Lab IT Solutions Pvt. Ltd.ng recruitment, onboarding, performance management, and statutory complianc",
+        "Developed and implemented workforce planning strategies to align human resources with organizational growth objectives.",
+        "Provided compensation analysis and salary planning, ensuring alignment with market trends and budget constraints.",
+        "Designed and enforced HR policies to ensure compliance with labor laws and corporate standards.",
+        "Streamlined statutory compliance (PF, ESIC, PT, LWF) processes and resolved complex cases in collaboration with government officials.",
+        "Spearheaded the implementation of performance management systems to drive continuous employee development and goal alignment",
+        "Oversaw payroll and benefits administration across regions, ensuring accuracy, timeliness, and competitiveness."
       ],
       skills: ["Strategic Planning", "Global HR", "Change Management", "Executive Leadership"],
       metrics: {
@@ -49,18 +52,18 @@ const Experience = () => {
     },
     {
       id: 2,
-      title: "HR Business Partner",
-      company: "InnovateCorp",
-      location: "New York, NY",
-      duration: "2019 - 2022",
+      title: "Principal",
+      company: "Pushpak Primary School, Aizawl",
+      location: "Aizawl",
+      duration: "September 2020-December 2021",
       type: "strategic",
       logo: "IC",
       description: "Partnered with C-suite executives to align HR initiatives with business objectives across multiple business units.",
       achievements: [
-        "Designed and launched leadership development program for 150+ managers",
-        "Orchestrated successful acquisition integration of 200+ employees",
-        "Implemented performance management system increasing engagement by 35%",
-        "Led compensation restructuring project saving $1.2M annually"
+        "Managed daily operations of the school, including staff recruitment, training, and development programs",
+        "Ensured compliance with state and central education standards, maintaining a strong reputation for academic excellence.",
+        "Introduced initiatives to improve faculty performance and student outcomes through workshops and mentoring programs",
+        "Facilitated communication between management, teachers, parents, and the community to foster a collaborative environment."
       ],
       skills: ["Business Partnership", "M&A Integration", "Performance Management", "Compensation"],
       metrics: {
@@ -71,18 +74,19 @@ const Experience = () => {
     },
     {
       id: 3,
-      title: "Talent Acquisition Manager",
-      company: "GrowthStart Ventures",
-      location: "Austin, TX",
-      duration: "2017 - 2019",
+      title: "Administration Manager",
+      company: "Sriveni Education Society ",
+      location: "Vishakhapatnam",
+      duration: "March 2018 – March 2020",
       type: "recruitment",
       logo: "GS",
       description: "Built and scaled talent acquisition function for high-growth startup environment, managing full-cycle recruiting.",
       achievements: [
-        "Hired 180+ employees across technical and non-technical roles",
-        "Reduced time-to-hire by 45% through process optimization",
-        "Established university partnerships for early career pipeline",
-        "Achieved 92% offer acceptance rate through candidate experience focus"
+        "Directed HR and administrative functions, including talent acquisition, statutory compliance, and organizational policy development.",
+        "stablished centralized filing systems for better documentation and compliance tracking, reducing retrieval time by 30%",
+        "Implemented employee performance evaluation systems, creating development plans and aligning individual goals with organizational objectives",
+        "Negotiated procurement contracts, achieving cost savings while maintaining service quality",
+        "Fostered a positive workplace culture through employee recognition programs and effective communication strategie"
       ],
       skills: ["Full-cycle Recruiting", "Employer Branding", "Candidate Experience", "Analytics"],
       metrics: {
@@ -93,18 +97,18 @@ const Experience = () => {
     },
     {
       id: 4,
-      title: "HR Generalist",
-      company: "Reliable Manufacturing Co.",
-      location: "Chicago, IL",
-      duration: "2015 - 2017",
+      title: "Deputy Manager - HR",
+      company: "Synefra Engineering & Construction",
+      location: "Pune",
+      duration: "March 2011 – December 2011",
       type: "generalist",
       logo: "RM",
       description: "Managed comprehensive HR functions including employee relations, compliance, and organizational development.",
       achievements: [
-        "Implemented HRIS system streamlining processes for 300+ employees",
-        "Developed employee handbook and compliance training programs",
+        "Delivered full-cycle recruitment services, from job postings to onboarding, reducing time-to-hire by 20%",
+        "Designed and implemented HR training modules for new hires and conducted workshops on labor law compliance.",
         "Reduced workers' compensation claims by 30% through safety initiatives",
-        "Established employee recognition program boosting morale scores by 25%"
+        "Conducted exit interviews, analyzing feedback to identify and implement organizational improvements"
       ],
       skills: ["Employee Relations", "Compliance", "HRIS", "Safety Management"],
       metrics: {
@@ -115,18 +119,20 @@ const Experience = () => {
     },
     {
       id: 5,
-      title: "Recruiter",
-      company: "StaffPro Solutions",
-      location: "Phoenix, AZ",
-      duration: "2012 - 2015",
+      title: "Deputy Manager",
+      company: "Johnson Controls India Pvt. Ltd",
+      location: "Pune",
+      duration: "September 2006 – October 2010",
       type: "recruitment",
       logo: "SP",
       description: "Specialized in technical recruiting for software development and engineering roles across multiple client companies.",
       achievements: [
-        "Successfully placed 150+ candidates in permanent roles",
-        "Maintained 85% client satisfaction rating across 3 years",
-        "Developed sourcing strategies for hard-to-fill technical positions",
-        "Built network of 1000+ active candidates in tech industry"
+        "Managed end-to-end recruitment and workforce planning strategies for key projects",
+        "Spearheaded the development of compensation and benefits programs aligned with industry benchmarks",
+        "Conducted HR analytics, creating dashboards and metrics to track performance and compliance progress",
+
+        "Liaised with labor inspectors and government officials to ensure compliance with statutory regulation",
+        "Enhanced employee engagement by introducing wellness and DEI programs"
       ],
       skills: ["Technical Recruiting", "Sourcing", "Client Relations", "Networking"],
       metrics: {
@@ -134,8 +140,35 @@ const Experience = () => {
         budget: "N/A",
         impact: "150+ placements"
       }
+    },
+    {
+      id: 6,
+      title: "Assistant Manager - HR",
+      company: "Victor Gaskets India Ltd",
+      location: "Pune",
+      duration: "August 2003 – September 2006",
+      type: "recruitment",
+      logo: "SP",
+      description: "Specialized in technical recruiting for software development and engineering roles across multiple client companies.",
+      achievements: [
+        "Conducted recruitment, onboarding, and training programs to attract and retain top talent",
+        "Implemented employee recognition initiatives to boost morale and retention",
+        "Led compliance efforts under the Factories Act, successfully passing audits without non-compliance issues",
+
+        "irected CSR initiatives such as educational support and environmental conservation programs, improving community relations",
+        // "Enhanced employee engagement by introducing wellness and DEI programs"
+      ],
+      skills: ["Technical Recruiting", "Sourcing", "Client Relations", "Networking"],
+      metrics: {
+        teamSize: "Solo contributor",
+        budget: "N/A",
+        impact: "150+ placements"
+      }
+    
+
     }
   ];
+
 
   const filterOptions = [
     { id: 'all', label: 'All Experience', count: experiences.length },
