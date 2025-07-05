@@ -178,21 +178,21 @@ const Hero = () => {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-gray-300">
                     <Mail className="h-4 w-4 text-pink-400" />
-                    <span className="text-sm">sarah.williams@hrpro.com</span>
+                    <span className="text-sm">swtnikam@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3 text-gray-300">
                     <Phone className="h-4 w-4 text-pink-400" />
-                    <span className="text-sm">+1 (555) 123-4567</span>
+                    <span className="text-sm">+91 9734028000</span>
                   </div>
                   <div className="flex items-center gap-3 text-gray-300">
                     <MapPin className="h-4 w-4 text-pink-400" />
-                    <span className="text-sm">New York, NY</span>
+                    <span className="text-sm">P12, BEG & Centre, Pune</span>
                   </div>
                 </div>
                 
                 {/* Social Links */}
                 <div className="flex gap-3 mt-6 pt-4 border-t border-white/20">
-                  <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-white/20 transition-colors duration-200">
+                  <a href="https://www.linkedin.com/in/swati-patil-079a9a25/" className="bg-white/10 p-2 rounded-lg hover:bg-white/20 transition-colors duration-200">
                     <Linkedin className="h-4 w-4 text-white" />
                   </a>
                   <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-white/20 transition-colors duration-200">
